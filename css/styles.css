@@ -1,0 +1,55 @@
+body{
+    height: 100vh
+}
+header{
+    height: 15%;
+    background-color: RGB(255, 193, 7);
+}
+main{
+    height: 100%;
+}
+footer{
+    height: 10%;
+}
+
+
+/*cambiar font, tamaño y color al texto del logo*/
+.navbar-light .navbar-brand{
+    color: white;
+    font-size:  2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+/*relleno a navegacion para que no quede pegado*/
+.navbar-nav{
+    padding-right: 5rem;
+}
+/*relleno entre los links*/
+.nav-item{
+    padding: 2rem;
+}
+/*cambiar font y tamaño a los links*/
+.nav-link{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: large;
+}
+/*cambiar color a los links*/
+.navbar-light .navbar-nav .colorBlanco{
+    color: white;
+}
+.botonPedido{
+height: 30px;
+width: 400px;
+border-radius: 15px;
+background-color: rgb(216, 216, 112);
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+
+}
+.textoPrincipal{
+    width: 80%;
+}
+.contactoWsp{
+    position: fixed;
+    right: 20px;
+    width: 10vh;
+}
