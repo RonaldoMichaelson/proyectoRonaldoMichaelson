@@ -128,6 +128,16 @@ background-color: rgba(252, 255, 46, 0.521);
     font-weight: 900;
     width: 71%;
 }
+.sectionUbi{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+.sectionUbi p{
+width: 30%;
+font-weight: 700;
+}
+
 .textoFooter{
     color: white;
 }
